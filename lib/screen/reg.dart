@@ -34,19 +34,6 @@ class _RegScreenState extends State<RegScreen> {
             padding: const EdgeInsets.all(8.0),
             child: TextField(
               decoration: InputDecoration(
-                labelText: "Name",
-                prefixIcon: Icon(Icons.person),
-                suffixIcon: Icon(Icons.email),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(12)
-                )
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextField(
-              decoration: InputDecoration(
                   labelText: "Email",
                   prefixIcon: const Icon(Icons.lock),
                   suffixIcon: IconButton(
