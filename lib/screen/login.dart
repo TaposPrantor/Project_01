@@ -133,6 +133,8 @@ class _LoginScreenState extends State<LoginScreen> {
             spacing: 15,
             children: [
               Text("Not Register Yet?"),
+              Text("Not Register Yet?"),
+              Text("Not Register Yet?"),//ctrl+d for copy
               InkWell(
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => RegScreen()));
