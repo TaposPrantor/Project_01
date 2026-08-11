@@ -23,13 +23,7 @@ class _RegScreenState extends State<RegScreen> {
             width: 450,
             fit: BoxFit.cover,
           ),
-          Text("REGISTER Here",
-            style: TextStyle(
-                color: Colors.blue,
-                fontWeight: FontWeight.bold,
-                fontSize: 30
-            ),
-          ),
+          //this is a comment
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextField(
